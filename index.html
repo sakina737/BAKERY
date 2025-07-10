@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <script src="main.js"></script>
+    
+<!-- Header part -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#" class="logo-txt">Cake <span>ry.</span></a>
+        </div>
+        
+        <ul class="navlist">
+            <li><a href="#" class="navlinks active">Home</a></li>
+            <li><a href="#" class="navlinks">About</a></li>
+            <li><a href="#" class="navlinks">Menu</a></li>
+        
+            <li><a href="#" class="navlinks">Order</a></li>
+            <li><a href="#" class="navlinks">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <a href="#" class="icons-link">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a href="#" class="icons-link">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+    </nav>
+</header>
+
+<!-- Sections part -->
+
+    
+        <main> <center>
+            <h1>About</h1>
+            <p>Welcome to Cakery Bakery, where every bite is a celebration!<br>
+                 We specialize in crafting delicious cakes, pastries, and <br>cupcakes, made with love and the finest ingredients.<br>
+                  From classic flavors to custom creations, our goal is to sweeten your moments with freshly baked goodness.<br>
+                   Whether it’s a birthday, wedding, or just a sweet craving, we are here to make it special.
+
+                Come, taste the magic! </p>
+            </center>
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Cakery</h1>
+                    <p>Delicious Cakes & Pastries Made with Love</p>
+                    <a href="#menu" class="btn">Explore Menu</a>
+
+                </div>
+            </section>
+            <section class="menu" id="menu">
+                <h2 class="menu-title">Our Delicious Menu</h2>
+                <div class="menu-categories">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="cakes">Cakes</button>
+                    <button class="category-btn" data-category="pastries">Pastries</button>
+                    <button class="category-btn" data-category="cupcakes">Cupcakes</button>
+                </div>
+            
+                <div class="menu-items">
+                    <!-- Cake Items -->
+                    <div class="menu-item" data-category="cupcakes">
+                        <img src="C:\Users\Fahad\Desktop\BAKERY\imges/kake.jpg " alt="cupcake">
+                        <h3> cupcakes</h3>
+                        <p>Rich and  chocolate delight with chocships</p>
+                        <span>300</span>
+                    </div>
+            
+                    <div class="menu-item" data-category="cakes">
+                        <img src="C:\Users\Fahad\Desktop\BAKERY\imges\cake.jpg" alt="Vanilla Cake">
+                        <h3>Vanilla Cake</h3>
+                        <p>Classic vanilla with a soft texture</p>
+                        <span>600</span>
+                    </div>
+                    <div class="menu-item" data-category="cakes">
+                        <img src="C:\Users\Fahad\Desktop\BAKERY\imges/pancake.jpg" alt="Vanilla Cake">
+                        <h3>panCake</h3>
+                        <p>Classic vanilla with a soft texture</p>
+                        <span>400</span>
+                    </div>
+            
+                    <!-- Pastries -->
+                    <div class="menu-item" data-category="pastries">
+                        <img src="C:\Users\Fahad\Desktop\BAKERY\imges/pastre.jpg" alt="Croissant">
+                                               <h3>pastries</h3>
+                        <p>Flaky and buttery croissant</p>
+                        <span>700</span>
+                    </div>
+            
+                    <div class="menu-item" data-category="pastries">
+                        <img src="C:\Users\Fahad\Desktop\BAKERY\imges/Staberry cake.jpg" alt="pastries Danish">
+                        <h3>Strawberry Danish</h3>
+                        <p>Delicious Danish with fresh strawberries</p>
+                        <span>800</span>
+                    </div>
+            
+                    <!-- cakes -->
+                    <div class="menu-item" data-category="cakes">
+                        <img src="/C:\Users\Fahad\Desktop\BAKERY\imges/donuts.jpg" alt="cake">
+                        <h3>Chocolate donuts</h3>
+                        <p>Moist bread with frosting</p>
+                        <span>650</span>
+                    </div>
+            
+                    <div class="menu-item" data-category="cupcakes">
+                        <img src="/C:\Users\Fahad\Desktop\BAKERY\imges/cookies.jpg" alt="Red Velvet Cupcake">
+                        <h3>cookies</h3>
+                        <p>Delightful cookies</p>
+                        <span>400</span>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+    
+    
+    <!-- Footer Section -->
+     
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>Cakery.</h2>
+                <p>Freshly baked cakes and pastries for every occasion!</p>
+            </div>
+            
+            <div class="footer-links">
+
+                <h3>Order <br>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@cakery.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Location: 123 Bakery Street, Sweet City</p>
+            </div>
+    
+            <div class="footer-social">https://www.linkedin.com/in/sakina-channa-04849b29b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src=main.js"></script>
+
+</html>
